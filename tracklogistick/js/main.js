@@ -13,7 +13,7 @@ window.onload = function () {
   if (document.body.clientWidth >= 1024) {
 
     SmoothScroll({
-			animationTime: 800,
+			animationTime: 700,
 			stepSize: 170,
 
 			accelerationDelta: 50,
