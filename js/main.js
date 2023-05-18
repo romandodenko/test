@@ -8,12 +8,7 @@ if (gif) {
     <img src="./img/decstop.gif" loading="lazy" width="300" height="300" alt="Gif">
     `;
     gif.insertAdjacentHTML("beforeend", template);
-  } else if (document.body.clientWidth <= 601) {
-    let template = `
-    <img src="./img/mobile.gif" loading="lazy" width="300" height="300" alt="Gif">
-    `;
-    gif.insertAdjacentHTML("beforeend", template);
-  } else if (document.body.clientWidth <= 992) {
+  }  else if (document.body.clientWidth <= 992) {
     let template = `
     <img src="./img/tablet.gif" loading="lazy" width="300" height="300" alt="Gif">
     `;
