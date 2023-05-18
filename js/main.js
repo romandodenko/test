@@ -26,5 +26,5 @@ window.addEventListener("load", windowLoad);
 function windowLoad() {
   const preload = document.querySelector(".preload");
 
-preload.classList.add("disabled");
+  preload.classList.add("disabled");
 };
